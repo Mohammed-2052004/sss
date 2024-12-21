@@ -1,1 +1,1 @@
-cut << "hello world";
+cout << "hello world";
