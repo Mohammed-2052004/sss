@@ -1,0 +1,11 @@
+name: github-actions-demo
+on : push
+
+jobs:
+    explore-githup-actions
+    runs-on: ubuntu-latest
+    steps:
+        - name: print the triggerd name 
+        run: echo "the jop was triggerd by ${{ github.event_name }}."
+        - name: print the os 
+        run: echo "the jop was triggerd by ${{ runner.os }}"
